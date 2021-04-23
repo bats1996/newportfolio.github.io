@@ -1,0 +1,109 @@
+h1 {
+    font-family: 'VT323', monospace;
+    font-size: 7vw;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;  
+}
+
+button{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3vw;
+    border-radius: 60%;
+    padding: 15px 32px;
+}
+
+figcaption{
+    font-family: 'Ubuntu', sans-serif;  
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 5px;
+    max-width: 220px;
+    margin: 0;
+}
+
+.landing{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.make{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.make > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  /* Place the navbar at the bottom left of the page, and make it stick */
+.about {
+    border: 2px solid #555555;
+    border-radius: 50%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 2.5%;
+    left:2.5%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .about a {
+    font-family: 'VT323', monospace;
+    float: left;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 50px;
+  }
+  
+  /* Change the color of links on hover */
+  .about a:hover {
+    background-color: #ddd;
+    color:yellow;
+  }
+  
+    /* Place the navbar at the bottom right of the page, and make it stick */
+.contact {
+    border: 2px solid #555555;
+    border-radius: 50%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 2.5%;
+    right:2.5%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .contact a {
+    font-family: 'VT323', monospace;
+    color: black;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 50px;
+  }
+  
+  /* Change the color of links on hover */
+  .contact a:hover {
+    background-color: #ddd;
+    color: yellow;
+  }
+  
